@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Button Effect 1</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/index.css">
+
+    <!-- icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        button {
+            width: 180px;
+        }
+
+        body>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body class="dark">
+    <!-- icon only aspect ratio 1 / 1, filled -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-default b-gradient bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <!-- here -->
+                <i data-feather="home"></i>
+                <span class="ci-btnhover-label">Home</span>
+                <!-- or here -->
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-danger bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-circle"></i>
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-success bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="check-circle"></i>
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-warning bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-triangle"></i>
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-info bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="info"></i>
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+    <!-- icon only aspect ratio 1 / 1, regular -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-default b-gradient bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <!-- here -->
+                <i data-feather="home"></i>
+                <span class="ci-btnhover-label">Home</span>
+                <!-- or here -->
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-danger bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-circle"></i>
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-success bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="check-circle"></i>
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-warning bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-triangle"></i>
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-info bs-1">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="info"></i>
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+
+    <!-- with icon, filled -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-default b-gradient">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <!-- here -->
+                <i data-feather="home"></i>
+                <span class="ci-btnhover-label">Home</span>
+                <!-- or here -->
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-danger">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-circle"></i>
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-success">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="check-circle"></i>
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-warning">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-triangle"></i>
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-info">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="info"></i>
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+
+    <!-- with icon, regular -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-default b-gradient">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <!-- here -->
+                <i data-feather="home"></i>
+                <span class="ci-btnhover-label">Home</span>
+                <!-- or here -->
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-danger">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-circle"></i>
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-success">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="check-circle"></i>
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-warning">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="alert-triangle"></i>
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-info">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <i data-feather="info"></i>
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+
+    <!-- filled -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-default b-gradient">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <!-- here -->
+                <span class="ci-btnhover-label">Filled</span>
+                <!-- or here -->
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-danger">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-success">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-warning">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-fill bc-info">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+
+    <!-- regular -->
+    <div>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-default b-gradient">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Regular</span>
+            </div>
+        </button>
+
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-danger">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Danger</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-success">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Success</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-warning">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Warning</span>
+            </div>
+        </button>
+        <button type="button" aria-label="my button" class="ci-btnhover-1 bs-regular bc-info">
+            <span class="ci-btnhover-point"></span>
+            <div class="ci-btnhover-field">
+                <span class="ci-btnhover-label">Info</span>
+            </div>
+        </button>
+    </div>
+
+    <!-- icons -->
+    <script>
+        feather.replace();
+    </script>
+    <!-- script -->
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
